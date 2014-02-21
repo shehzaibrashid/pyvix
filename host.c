@@ -49,8 +49,8 @@ static status Host_init(Host *self, PyObject *args, PyObject *kwargs) {
       NULL
     };
   //VixServiceProvider hostType = VIX_SERVICEPROVIDER_VMWARE_SERVER;
-  //VixServiceProvider hostType = VIX_SERVICEPROVIDER_VMWARE_WORKSTATION;
-  VixServiceProvider hostType = VIX_SERVICEPROVIDER_VMWARE_PLAYER;
+  VixServiceProvider hostType = VIX_SERVICEPROVIDER_VMWARE_WORKSTATION;
+  //VixServiceProvider hostType = VIX_SERVICEPROVIDER_VMWARE_PLAYER;
   char *hostName = NULL;
   int hostPort = 0;
   char *username = NULL;
